@@ -65699,3 +65699,372 @@ Served asset /360player.js - 304 Not Modified (0ms)
 
 Started GET "/assets/swf/soundmanager2_flash9.swf" for 127.0.0.1 at 2014-01-15 00:01:25 -0800
 Served asset /swf/soundmanager2_flash9.swf - 200 OK (4ms)
+
+
+Started GET "/songs/2" for 127.0.0.1 at 2014-01-15 00:04:17 -0800
+Processing by SongsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36mSong Load (0.1ms)[0m  [1mSELECT "songs".* FROM "songs" WHERE "songs"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered songs/show.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/flashblock.css?body=1" for 127.0.0.1 at 2014-01-15 00:04:17 -0800
+Served asset /flashblock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/berniecode-animator.js" for 127.0.0.1 at 2014-01-15 00:04:17 -0800
+Served asset /berniecode-animator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360player.js" for 127.0.0.1 at 2014-01-15 00:04:17 -0800
+Served asset /360player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360player.css?body=1" for 127.0.0.1 at 2014-01-15 00:04:17 -0800
+Served asset /360player.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360player-visualization.css?body=1" for 127.0.0.1 at 2014-01-15 00:04:17 -0800
+Served asset /360player-visualization.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/soundmanager2.js" for 127.0.0.1 at 2014-01-15 00:04:17 -0800
+Served asset /soundmanager2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/swf/soundmanager2_flash9.swf" for 127.0.0.1 at 2014-01-15 00:04:17 -0800
+Served asset /swf/soundmanager2_flash9.swf - 304 Not Modified (0ms)
+
+
+Started GET "/songs/2" for 127.0.0.1 at 2014-01-15 00:05:24 -0800
+Processing by SongsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36mSong Load (0.1ms)[0m  [1mSELECT "songs".* FROM "songs" WHERE "songs"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered songs/show.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/flashblock.css?body=1" for 127.0.0.1 at 2014-01-15 00:05:24 -0800
+Served asset /flashblock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360player.js" for 127.0.0.1 at 2014-01-15 00:05:24 -0800
+Served asset /360player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360player.css?body=1" for 127.0.0.1 at 2014-01-15 00:05:24 -0800
+Served asset /360player.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/berniecode-animator.js" for 127.0.0.1 at 2014-01-15 00:05:24 -0800
+Served asset /berniecode-animator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360player-visualization.css?body=1" for 127.0.0.1 at 2014-01-15 00:05:24 -0800
+Served asset /360player-visualization.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/soundmanager2.js" for 127.0.0.1 at 2014-01-15 00:05:24 -0800
+Served asset /soundmanager2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/swf/soundmanager2_flash9.swf" for 127.0.0.1 at 2014-01-15 00:05:24 -0800
+Served asset /swf/soundmanager2_flash9.swf - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360-button-vis-play-light.png" for 127.0.0.1 at 2014-01-15 00:05:25 -0800
+Served asset /360-button-vis-play-light.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360-button-vis-pause-light.png" for 127.0.0.1 at 2014-01-15 00:05:25 -0800
+Served asset /360-button-vis-pause-light.png - 304 Not Modified (0ms)
+
+
+Started GET "/songs/2" for 127.0.0.1 at 2014-01-15 00:07:22 -0800
+Processing by SongsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36mSong Load (0.1ms)[0m  [1mSELECT "songs".* FROM "songs" WHERE "songs"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered songs/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/flashblock.css?body=1" for 127.0.0.1 at 2014-01-15 00:07:22 -0800
+Served asset /flashblock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/berniecode-animator.js" for 127.0.0.1 at 2014-01-15 00:07:22 -0800
+Served asset /berniecode-animator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/soundmanager2.js" for 127.0.0.1 at 2014-01-15 00:07:22 -0800
+Served asset /soundmanager2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360player.css?body=1" for 127.0.0.1 at 2014-01-15 00:07:22 -0800
+Served asset /360player.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360player.js" for 127.0.0.1 at 2014-01-15 00:07:22 -0800
+Served asset /360player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360player-visualization.css?body=1" for 127.0.0.1 at 2014-01-15 00:07:22 -0800
+Served asset /360player-visualization.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/swf/soundmanager2_flash9.swf" for 127.0.0.1 at 2014-01-15 00:07:22 -0800
+Served asset /swf/soundmanager2_flash9.swf - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360-button-vis-play-light.png" for 127.0.0.1 at 2014-01-15 00:07:22 -0800
+Served asset /360-button-vis-play-light.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360-button-vis-pause-light.png" for 127.0.0.1 at 2014-01-15 00:07:23 -0800
+Served asset /360-button-vis-pause-light.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 00:08:09 -0800
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = 3[0m
+  Rendered shared/_user_info.html.erb (6.0ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = 3
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = 3[0m
+  Rendered shared/_stats.html.erb (5.0ms)
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered shared/_micropost_form.html.erb (1.9ms)
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+ WHERE follower_id = 3) OR user_id = 3)
+  Rendered shared/_feed.html.erb (2.3ms)
+  Rendered pages/home.html.erb within layouts/application (19.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 31ms (Views: 25.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/flashblock.css?body=1" for 127.0.0.1 at 2014-01-15 00:08:09 -0800
+Served asset /flashblock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360player.css?body=1" for 127.0.0.1 at 2014-01-15 00:08:09 -0800
+Served asset /360player.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360player-visualization.css?body=1" for 127.0.0.1 at 2014-01-15 00:08:09 -0800
+Served asset /360player-visualization.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360player.js" for 127.0.0.1 at 2014-01-15 00:08:09 -0800
+Served asset /360player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/berniecode-animator.js" for 127.0.0.1 at 2014-01-15 00:08:09 -0800
+Served asset /berniecode-animator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/soundmanager2.js" for 127.0.0.1 at 2014-01-15 00:08:09 -0800
+Served asset /soundmanager2.js - 304 Not Modified (0ms)
+
+
+Started GET "/avatars/medium/missing.png" for 127.0.0.1 at 2014-01-15 00:08:09 -0800
+
+ActionController::RoutingError (No route matches [GET] "/avatars/medium/missing.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/MTminded/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/MTminded/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/MTminded/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/MTminded/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/swf/soundmanager2_flash9.swf" for 127.0.0.1 at 2014-01-15 00:08:09 -0800
+Served asset /swf/soundmanager2_flash9.swf - 304 Not Modified (0ms)
+
+
+Started GET "/songs/2" for 127.0.0.1 at 2014-01-15 00:14:10 -0800
+Processing by SongsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35mSong Load (0.1ms)[0m  SELECT "songs".* FROM "songs" WHERE "songs"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered songs/show.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/flashblock.css?body=1" for 127.0.0.1 at 2014-01-15 00:14:11 -0800
+Served asset /flashblock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360player.css?body=1" for 127.0.0.1 at 2014-01-15 00:14:11 -0800
+Served asset /360player.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/soundmanager2.js" for 127.0.0.1 at 2014-01-15 00:14:11 -0800
+Served asset /soundmanager2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/berniecode-animator.js" for 127.0.0.1 at 2014-01-15 00:14:11 -0800
+Served asset /berniecode-animator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360player-visualization.css?body=1" for 127.0.0.1 at 2014-01-15 00:14:11 -0800
+Served asset /360player-visualization.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360player.js" for 127.0.0.1 at 2014-01-15 00:14:11 -0800
+Served asset /360player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/swf/soundmanager2_flash9.swf" for 127.0.0.1 at 2014-01-15 00:14:11 -0800
+Served asset /swf/soundmanager2_flash9.swf - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360-button-vis-play-light.png" for 127.0.0.1 at 2014-01-15 00:14:12 -0800
+Served asset /360-button-vis-play-light.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/360-button-vis-pause-light.png" for 127.0.0.1 at 2014-01-15 00:14:16 -0800
+Served asset /360-button-vis-pause-light.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/songs/2" for 127.0.0.1 at 2014-01-15 00:42:57 -0800
+Processing by SongsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mSong Load (0.1ms)[0m  [1mSELECT "songs".* FROM "songs" WHERE "songs"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered songs/show.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 71ms (Views: 60.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/flashblock.css?body=1" for 127.0.0.1 at 2014-01-15 00:42:57 -0800
+Served asset /flashblock.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/360player.css?body=1" for 127.0.0.1 at 2014-01-15 00:42:57 -0800
+Served asset /360player.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/berniecode-animator.js" for 127.0.0.1 at 2014-01-15 00:42:57 -0800
+Served asset /berniecode-animator.js - 200 OK (5ms)
+
+
+Started GET "/assets/360player-visualization.css?body=1" for 127.0.0.1 at 2014-01-15 00:42:57 -0800
+Served asset /360player-visualization.css - 200 OK (1ms)
+
+
+Started GET "/assets/soundmanager2.js" for 127.0.0.1 at 2014-01-15 00:42:57 -0800
+Served asset /soundmanager2.js - 200 OK (43ms)
+
+
+Started GET "/assets/360player.js" for 127.0.0.1 at 2014-01-15 00:42:57 -0800
+Served asset /360player.js - 200 OK (7ms)
+
+
+Started GET "/assets/swf/soundmanager2_flash9.swf" for 127.0.0.1 at 2014-01-15 00:42:57 -0800
+Served asset /swf/soundmanager2_flash9.swf - 200 OK (2ms)
+
+
+Started GET "/assets/360-button-vis-play-light.png" for 127.0.0.1 at 2014-01-15 00:42:58 -0800
+Served asset /360-button-vis-play-light.png - 200 OK (8ms)
+
+
+Started GET "/assets/360-button-vis-pause-light.png" for 127.0.0.1 at 2014-01-15 00:42:59 -0800
+Served asset /360-button-vis-pause-light.png - 200 OK (8ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to DeviseCreateUsers (20130527071640)
+Migrating to AddNameToUsers (20130527094354)
+Migrating to CreateYoddles (20130527101656)
+Migrating to AddUserIdToYoddles (20130527112850)
+Migrating to AddAttachmentAvatarToUsers (20130528213954)
+Migrating to AddAttachmentImageToYoddles (20130528234618)
+Migrating to CreateComments (20130529085319)
+Migrating to AddImageRemoteToYoddles (20130530185935)
+Migrating to AddAttachmentHeaderbackgroundToUsers (20130530215629)
+Migrating to AddUserIdToYoddlevids (20130601075237)
+Migrating to AddAttachmentVideoToYoddlevids (20130601165920)
+Migrating to CreateMicroposts (20130604173912)
+Migrating to CreateRelationships (20130605063105)
+Migrating to CreateMessages (20130710013306)
+Migrating to CreateVideos (20131207225303)
+Migrating to CreateSongs (20140112013509)
+Migrating to AddAttachmentMp3ToSongs (20140112015039)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+
+
+Started GET "/songs/2" for 127.0.0.1 at 2014-01-15 00:44:18 -0800
+Processing by SongsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mSong Load (0.1ms)[0m  [1mSELECT "songs".* FROM "songs" WHERE "songs"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered songs/show.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 66ms (Views: 55.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/flashblock.css?body=1" for 127.0.0.1 at 2014-01-15 00:44:18 -0800
+Served asset /flashblock.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/360player.css?body=1" for 127.0.0.1 at 2014-01-15 00:44:18 -0800
+Served asset /360player.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/berniecode-animator.js" for 127.0.0.1 at 2014-01-15 00:44:18 -0800
+Served asset /berniecode-animator.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/soundmanager2.js" for 127.0.0.1 at 2014-01-15 00:44:18 -0800
+Served asset /soundmanager2.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/360player-visualization.css?body=1" for 127.0.0.1 at 2014-01-15 00:44:18 -0800
+Served asset /360player-visualization.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/360player.js" for 127.0.0.1 at 2014-01-15 00:44:18 -0800
+Served asset /360player.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/swf/soundmanager2_flash9.swf" for 127.0.0.1 at 2014-01-15 00:44:18 -0800
+Served asset /swf/soundmanager2_flash9.swf - 200 OK (1ms)
