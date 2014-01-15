@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= full_title(yield(:title)) %></title>
+
+    <%= stylesheet_link_tag 'flashblock.css' %>      
+    <%= stylesheet_link_tag '360player.css' %>     
+    <%= stylesheet_link_tag '360player-visualization.css' %>      
+    <%= csrf_meta_tags %> 
+    
+    <%= render 'layouts/shim' %>  
+  </head>
+  <body>
+    <%= render 'layouts/header' %>
+    <div class="container">
+     <% flash.each do |key, value| %>
+        <%= content_tag(:div, value, class: "alert alert-#{key}") %>
+      <% end %>
+      <%= yield %>
+      <%= render 'layouts/footer' %>
+     
+
+     <%= debug(params) if Rails.env.development? %>  
+    </div>  
+  </body>
+
+
+  <!-- special IE-only canvas fix -->
+  <!--[if IE]><script type="text/javascript" src="/assets/excanvas.js"></script><![endif]-->
+
+  <!-- Apache-licensed animation library -->
+  <script type="text/javascript" src="/assets/berniecode-animator.js"></script>
+
+  <!-- the core stuff -->
+  <script type="text/javascript" src="/assets/soundmanager2.js"></script>
+  <script type="text/javascript" src="/assets/360player.js"></script>
+  
+  <script type="text/javascript">
+
+    soundManager.setup({
+      // path to directory containing SM2 SWF
+      url: '/swf/'
+    });
+
+  </script>
+
+
+
+</html>
